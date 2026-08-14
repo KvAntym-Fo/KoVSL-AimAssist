@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kovsl_aimassist",
+  "version": "${version}",
+  "name": "KoVSL Aim Assist",
+  "description": "Client-side aim assist for Minecraft 1.21.4.",
+  "authors": ["KoVSL"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kovsl.aimassist.KovslAimAssistClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "fabric-api": ">=0.119.0+1.21.4"
+  }
+}
